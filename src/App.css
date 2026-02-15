@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #ff6b6b, #ff8787);
+  background: linear-gradient(135deg, #4e1818, #ff8787);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .app {
-  background: white;
+  background: rgb(227, 113, 113);
   padding: 2rem;
   border-radius: 12px;
   width: 95%;
@@ -31,7 +31,7 @@ body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  background: #ff6b6b;
+  background: #bc3e3e;
   color: white;
   font-weight: bold;
 }
@@ -48,6 +48,10 @@ body {
 
 @media (max-width: 500px) {
   .timer {
-    font-size: 2.2rem;
-  }
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #ff4d4d;   /* Strong tomato red */
+}
+
 }
